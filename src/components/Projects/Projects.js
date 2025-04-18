@@ -25,8 +25,8 @@ function Projects() {
               isBlog={false}
               title="Queer Squad Web"
               description="Una plataforma comunitaria para la organización LGBT+ Queer Squad, diseñada como alternativa a Meetup. Desarrollada con React, Redux, Firebase y Tailwind CSS, permite a usuarios registrarse, crear y gestionar eventos, así como explorar actividades disponibles en su comunidad. Proyecto actualmente en construcción con características principales implementadas y en proceso de mejora continua."
-              ghLink="https://github.com/tuusuario/queersquadweb"
-              demoLink="https://cointracker-demo.vercel.app"
+              ghLink="https://github.com/Silvergab"
+              demoLink="https://queersquad-bcn.web.app/"
             />
           </Col>
 
@@ -36,8 +36,8 @@ function Projects() {
               isBlog={false}
               title="Portafolio Personal"
               description="Un portafolio web profesional desarrollado con React.js, mostrando mis proyectos y habilidades técnicas. Cuenta con navegación multi-página, diseño totalmente responsive y estilizado con React-Bootstrap y CSS personalizado. El sitio incluye secciones para proyectos de GitHub, currículum y competencias técnicas, todo desplegado en Vercel para una experiencia de usuario óptima."
-              ghLink="https://github.com/tuusuario/portfolio"
-              demoLink="https://portafolio-personal-brown.vercel.app/"
+              ghLink="https://github.com/Silvergab/portafolio-personal"
+              demoLink="portafolio-personal-ten-kappa.vercel.app"
             />
           </Col>
 
