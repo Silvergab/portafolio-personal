@@ -37,7 +37,7 @@ function Projects() {
               title="Portafolio Personal"
               description="Un portafolio web profesional desarrollado con React.js, mostrando mis proyectos y habilidades técnicas. Cuenta con navegación multi-página, diseño totalmente responsive y estilizado con React-Bootstrap y CSS personalizado. El sitio incluye secciones para proyectos de GitHub, currículum y competencias técnicas, todo desplegado en Vercel para una experiencia de usuario óptima."
               ghLink="https://github.com/Silvergab/portafolio-personal"
-              demoLink="portafolio-personal-ten-kappa.vercel.app"
+              demoLink="https://portafolio-personal-ten-kappa.vercel.app"
             />
           </Col>
 
@@ -47,7 +47,7 @@ function Projects() {
               isBlog={false}
               title="Coin Tracker"
               description="Aplicación web fullstack para monitoreo de criptomonedas desarrollada con JavaScript vanilla, CSS y Express.js. Permite a usuarios autenticados mediante JWT gestionar su portafolio de criptomonedas, registrar transacciones y visualizar ganancias/pérdidas en tiempo real usando la API de CoinGecko."
-              ghLink="https://github.com/tuusuario/cointracker"              
+              ghLink="https://github.com/Silvergab/coin-tracker"              
             />
           </Col>
         </Row>
