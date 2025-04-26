@@ -24,14 +24,13 @@ You will need to have **Node.js** and **Git** installed globally on your machine
 
 ## Installation and Setup
 
-1. Install the project dependencies:
-   ```bash
-   npm install
-   Start the development server: npm start
-   The app will run in development mode.
-   Open http://localhost:3000 to view it in your browser.
+1. Install the project dependencies: npm install <br>
+   
+   Start the development server: npm start <br>
+   The app will run in development mode. <br>
+   Open http://localhost:3000 to view it in your browser. <br>
    The page will automatically reload if you make edits.
-   ```
+  
 
 ## Usage Instructions
 
