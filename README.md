@@ -35,6 +35,6 @@ You will need to have **Node.js** and **Git** installed globally on your machine
 
 ## Usage Instructions
 
-Open the project folder and navigate to: 
+Open the project folder and navigate to: <br>
 /src/components/<br>
 There you will find all the components used, and you can edit your information accordingly.
