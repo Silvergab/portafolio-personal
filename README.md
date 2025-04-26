@@ -1,31 +1,39 @@
-## Construido con
-Mi portafolio personal, que presenta algunos de mis proyectos de GitHub, así como mi currículum y habilidades técnicas.<br/>
+## Built With
 
-Este proyecto fue construido utilizando las siguientes tecnologías:
+My personal portfolio showcasing some of my GitHub projects, as well as my resume and technical skills.
+
+This project was built using the following technologies:
 
 - React.js
 - Node.js
 - Express.js
 - CSS3
-- VsCode
+- VS Code
 - Vercel
 
-Características
-📖 Diseño de múltiples páginas
+## Features
 
-🎨 Estilizado con React-Bootstrap y CSS, con colores fáciles de personalizar
+- 📖 Multi-page design
+- 🎨 Styled with React-Bootstrap and CSS, with easily customizable colors
+- 📱 Fully responsive design
 
-📱 Totalmente responsivo
+## Getting Started
 
-Cómo empezar
-Clona este repositorio. Necesitarás tener node.js y git instalados globalmente en tu máquina.
+Clone this repository.  
+You will need to have **Node.js** and **Git** installed globally on your machine.
 
-🛠 Instrucciones de instalación y configuración
-Instalación: npm install
+## Installation and Setup
 
-En el directorio del proyecto, puedes ejecutar: npm start
+1. Install the project dependencies:
+   ```bash
+   npm install
+   Start the development server: npm start
+   The app will run in development mode.
+   Open http://localhost:3000 to view it in your browser.
+   The page will automatically reload if you make edits.
+   ```
 
-Ejecuta la aplicación en modo de desarrollo.<br/> Abre http://localhost:3000 para verla en el navegador. La página se recargará si realizas ediciones.
+## Usage Instructions
 
-Instrucciones de uso
-Abre la carpeta del proyecto y navega a /src/components/. <br/> Encontrarás todos los componentes utilizados y podrás editar tu información de acuerdo a ello.
+Open the project folder and navigate to: /src/components/
+There you will find all the components used, and you can edit your information accordingly.

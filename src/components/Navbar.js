@@ -3,9 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { AiFillMail } from "react-icons/ai";
 import { AiOutlineHome, AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 
@@ -31,28 +29,28 @@ function NavBar() {
           <img
             src={logo}
             className="img-fluid logo"
-            alt="Logo de Gabriel Hernández"
+            alt="Gabriel Hernández's Logo"
           />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => updateExpanded(expand ? false : "expanded")}
-          aria-label="Alternar menú"
+          aria-label="Toggle menu"
         >
           <span />
           <span />
           <span />
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#inicio">
+          <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/"
                 onClick={() => updateExpanded(false)}
-                aria-label="Inicio"
+                aria-label="Home"
               >
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Inicio
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -61,12 +59,12 @@ function NavBar() {
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
-                aria-label="Proyectos"
+                aria-label="Projects"
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Proyectos
+                Projects
               </Nav.Link>
             </Nav.Item>
 
@@ -75,21 +73,10 @@ function NavBar() {
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
-                aria-label="Currículum"
+                aria-label="Resume"
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> CV
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item className="email-btn">
-              <Button
-                href="mailto:alfagabriel11@gmail.com"
-                target="_blank"
-                className="email-btn-inner"
-                aria-label="Enviar correo"
-              >
-                <AiFillMail style={{ fontSize: "1.2em" }} />
-              </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

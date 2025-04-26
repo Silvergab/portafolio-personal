@@ -2,9 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
@@ -16,26 +14,25 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-            PERMÍTEME <span className="purple"> PRESENTARME </span> 
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-               Soy <b className="purple">desarrollador web</b> titulado en <b className="purple">Desarrollo de Aplicaciones Web (DAW)</b>. Me apasiona la tecnología y disfruto enfrentando nuevos retos que me permitan crecer profesionalmente.
+              I'm a <b className="purple">web developer</b> with a degree in <b className="purple">Web Application Development (DAW)</b>. I'm passionate about technology and enjoy tackling new challenges that help me grow professionally.
               <br />
-              <br />Me gusta programar principalmente con
+              <br />I specialize in programming with
               <i>
-                <b className="purple"> JavaScript (React, Node) y PHP,</b> complementadas con <b className="purple"> Firebase, HTML, Tailwind CSS y mySQL</b> para desarrollar aplicaciones completas y escalables.
+                <b className="purple"> JavaScript (React, Node) and PHP,</b> complemented by <b className="purple"> Firebase, HTML, Tailwind CSS, and mySQL</b> to develop complete, scalable applications.
               </i>
               <br />
               <br />
-              Actualmente estoy ampliando mis habilidades aprendiendo <b className="purple">Python</b> y explorando el campo de las
+              I'm currently expanding my skills by learning <b className="purple">Python</b> and exploring the field of
               <i>
                 <b className="purple">
                   {" "}
-                  automatizaciones con IA,
+                  AI automation,
                 </b>
               </i>
-              &nbsp; lo que refleja mi interés constante por estar al día con las tecnologías emergentes. Me dedico a desarrollar proyectos web por cuenta propia, aplicando mis conocimientos para crear soluciones efectivas e innovadoras.
-             
+              &nbsp; reflecting my constant drive to stay current with emerging technologies. I develop web projects independently, applying my knowledge to create effective, innovative solutions.
             </p>
           </Col>
           <Col md={4} className="myAvatar">
@@ -47,7 +44,7 @@ function Home2() {
         <Row>
           <Col md={12} style={{ marginTop: "50px" }}>
             <h1 className="project-heading">
-            <strong className="purple">Habilidades</strong> Principales
+              <strong className="purple">Core</strong> Skills
             </h1>
             <Techstack />
           </Col>
@@ -56,16 +53,16 @@ function Home2() {
         <Row>
           <Col md={12} style={{ marginTop: "50px" }}>
             <h1 className="project-heading">
-              <strong className="purple">Herramientas</strong> que utilizo
+              <strong className="purple">Tools</strong> I Use
             </h1>
             <Toolstack />
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>REDES SOCIALES</h1>
+            <h1>SOCIAL NETWORKS</h1>
             <p>
-              <span className="purple"><a className= "purple" target= "_blank" href="https://linkedin.com/in/agabrielmhernandez">¡Conectemos!</a></span>
+              <span className="purple"><a className="purple" target="_blank" href="https://linkedin.com/in/agabrielmhernandez">Let's connect!</a></span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -91,7 +88,6 @@ function Home2() {
             </ul>
           </Col>
         </Row>
-
       </Container>
     </Container>
   );

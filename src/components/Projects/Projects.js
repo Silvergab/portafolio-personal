@@ -12,19 +12,19 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-        Mis<strong className="purple"> Trabajos </strong>Recientes
+          My <strong className="purple">Recent </strong>Works
         </h1>
         <p style={{ color: "white" }}>
-        Aquí tienes algunos de los proyectos en los que he trabajado recientemente:
+          Here are some projects I've worked on recently:
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={queersquadweb}
               isBlog={false}
               title="Queer Squad Web"
-              description="Una plataforma comunitaria para la organización LGBT+ Queer Squad, diseñada como alternativa a Meetup. Desarrollada con React, Redux, Firebase y Tailwind CSS, permite a usuarios registrarse, crear y gestionar eventos, así como explorar actividades disponibles en su comunidad. Proyecto actualmente en construcción con características principales implementadas y en proceso de mejora continua."
+              description="A community platform for the LGBT+ organization Queer Squad, designed as an alternative to Meetup. Built with React, Redux, Firebase and Tailwind CSS, it allows registered users to create and manage events, as well as explore available activities in their community. Currently under development with core features implemented and undergoing continuous improvement."
               ghLink="https://github.com/Silvergab"
               demoLink="https://queersquad-bcn.web.app/"
             />
@@ -34,8 +34,8 @@ function Projects() {
             <ProjectCard
               imgPath={portafolio}
               isBlog={false}
-              title="Portafolio Personal"
-              description="Un portafolio web profesional desarrollado con React.js, mostrando mis proyectos y habilidades técnicas. Cuenta con navegación multi-página, diseño totalmente responsive y estilizado con React-Bootstrap y CSS personalizado. El sitio incluye secciones para proyectos de GitHub, currículum y competencias técnicas, todo desplegado en Vercel para una experiencia de usuario óptima."
+              title="Personal Portfolio"
+              description="A professional web portfolio developed with React.js, showcasing my projects and technical skills. Features multi-page navigation, fully responsive design styled with React-Bootstrap and custom CSS. The site includes sections for GitHub projects, resume, and technical skills, all deployed on Vercel for optimal user experience."
               ghLink="https://github.com/Silvergab/portafolio-personal"
               demoLink="https://portafolio-personal-ten-kappa.vercel.app"
             />
@@ -46,7 +46,7 @@ function Projects() {
               imgPath={cointracker}
               isBlog={false}
               title="Coin Tracker"
-              description="Aplicación web fullstack para monitoreo de criptomonedas desarrollada con JavaScript vanilla, CSS y Express.js. Permite a usuarios autenticados mediante JWT gestionar su portafolio de criptomonedas, registrar transacciones y visualizar ganancias/pérdidas en tiempo real usando la API de CoinGecko."
+              description="Fullstack web application for cryptocurrency tracking built with vanilla JavaScript, CSS and Express.js. Allows JWT-authenticated users to manage their crypto portfolio, record transactions, and visualize profits/losses in real-time using the CoinGecko API."
               ghLink="https://github.com/Silvergab/coin-tracker"              
             />
           </Col>
