@@ -10,17 +10,17 @@ Este proyecto fue construido utilizando las siguientes tecnologías:
 - VsCode
 - Vercel
 
-Características
+## Características
 📖 Diseño de múltiples páginas
 
 🎨 Estilizado con React-Bootstrap y CSS, con colores fáciles de personalizar
 
 📱 Totalmente responsivo
 
-Cómo empezar
+## Cómo empezar
 Clona este repositorio. Necesitarás tener node.js y git instalados globalmente en tu máquina.
 
-🛠 Instrucciones de instalación y configuración
+##  🛠 Instrucciones de instalación y configuración
 Instalación: npm install
 
 En el directorio del proyecto, puedes ejecutar: npm start
