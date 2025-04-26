@@ -3,9 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { AiFillMail } from "react-icons/ai";
 import { AiOutlineHome, AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 
@@ -81,16 +79,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="email-btn">
-              <Button
-                href="mailto:alfagabriel11@gmail.com"
-                target="_blank"
-                className="email-btn-inner"
-                aria-label="Enviar correo"
-              >
-                <AiFillMail style={{ fontSize: "1.2em" }} />
-              </Button>
-            </Nav.Item>
+ 
           </Nav>
         </Navbar.Collapse>
       </Container>
